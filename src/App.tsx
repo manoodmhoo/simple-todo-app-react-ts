@@ -1,11 +1,10 @@
-import { useState } from 'react'
-import {  Text } from '@geist-ui/core'
+import React from 'react'
+import TodoApp from './components/TodoApp'
 
-function App() {
-
+const App: React.FC = () => {
   return (
     <>
-      <Text h1>Simple Todo App</Text>
+      <TodoApp />
     </>
   )
 }
