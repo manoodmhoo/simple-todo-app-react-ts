@@ -29,6 +29,6 @@ npm start
 or 
 
 yarn start
+```
 
 The app will start running at http://localhost:3000.
-```
